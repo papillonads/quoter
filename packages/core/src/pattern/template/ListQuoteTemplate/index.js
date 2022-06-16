@@ -1,0 +1,1 @@
+export { ListQuoteTemplate } from './ListQuoteTemplate'

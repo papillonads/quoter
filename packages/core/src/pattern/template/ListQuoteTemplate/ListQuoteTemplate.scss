@@ -1,0 +1,67 @@
+@import '~@papillonads/css/build/primer/support/mixins/layout.scss';
+@import '../../../index.scss';
+
+.container {
+  @include container;
+}
+
+.alert {
+  margin-bottom: -20px;
+}
+
+.content {
+  &Display {
+    display: flex;
+    flex-direction: column;
+
+    &Grid {
+      &ListQuotes {
+        margin: 20px 0;
+        min-width: 1280px;
+      }
+    }
+
+    &Search {
+      display: flex;
+      flex-direction: column;
+
+      @include breakpoint(md) {
+        flex-direction: row;
+      }
+
+      &Part {
+        width: 100%;
+
+        &Field {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-top: 15px;
+          margin-bottom: 15px;
+
+          @include breakpoint(md) {
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
+
+          &Input {
+            width: 100%;
+          }
+
+          &Label {
+            margin-right: 5px;
+            padding: 5px;
+            border-radius: 6px;
+            min-width: 325px;
+          }
+        }
+      }
+    }
+
+    &Pagination {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 0;
+    }
+  }
+}
