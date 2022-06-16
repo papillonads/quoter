@@ -18,17 +18,23 @@ export async function getQuotes({ dispatch }) {
     isLoading: true,
   })
 
-  const quotesResponse = await window.fetch('https://quotes.stormconsultancy.co.uk/quotes.json')
+  let quotesResponse
+  let quotesResponseData
 
-  const quotesResponseData = await quotesResponse.json()
-
-  contextSetProgressAction({
-    message: {
-      text: quotesResponseData?.length !== 0 ? 'Successfully collected quotes!' : 'There are no quotes yet!',
-      type: quotesResponseData?.length !== 0 ? messageType.success : messageType.warning,
-    },
-    isLoading: false,
-  })
+  try {
+    quotesResponse = await window.fetch('https://quotes.stormconsultancy.co.uk/quotes.json')
+    quotesResponseData = await quotesResponse.json()
+  } catch (err) {
+    return quotesStaticData
+  } finally {
+    contextSetProgressAction({
+      message: {
+        text: quotesResponseData?.length !== 0 ? 'Successfully collected quotes!' : 'There are no quotes yet!',
+        type: quotesResponseData?.length !== 0 ? messageType.success : messageType.warning,
+      },
+      isLoading: false,
+    })
+  }
 
   if (quotesResponseData?.length === 0) {
     return quotesStaticData
