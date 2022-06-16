@@ -18,7 +18,7 @@ export async function getQuotes({ dispatch }) {
     isLoading: true,
   })
 
-  const quotesResponse = await window.fetch('http://quotes.stormconsultancy.co.uk/quotes.json')
+  const quotesResponse = await window.fetch('https://quotes.stormconsultancy.co.uk/quotes.json')
 
   const quotesResponseData = await quotesResponse.json()
 
