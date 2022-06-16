@@ -156,7 +156,7 @@
     "jsdom": "^19.0.0",
     "jsdom-global": "^3.0.2",
     "lint-staged": "^13.0.1",
-    "prettier": "^2.7.0",
+    "prettier": "^2.7.1",
     "puppeteer": "^14.4.0",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
