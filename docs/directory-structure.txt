@@ -1,0 +1,150 @@
+|____index.scss
+|____route
+| |____index.js
+| |______tests__
+| | |____path.test.js
+| | |____index.test.js
+| |____path.js
+|____index.js
+|____library
+| |____constant
+| | |____index.js
+| | |______tests__
+| | | |____index.test.js
+| | |____alertText
+| | | |____app
+| | | | |____index.js
+| | | |____listQuotes
+| | | | |____index.js
+| |____environment
+| | |____host
+| | | |____index.js
+| | | |______tests__
+| | | | |____index.test.js
+|____state
+| |____mock
+| | |____index.js
+| |____index.js
+| |____default
+| | |____ui
+| | | |____index.js
+| | |____context
+| | | |____index.js
+| | | |____progress.js
+| | | |____navigation.js
+| | |____index.js
+|____pattern
+| |____page
+| | |____ListQuotePage
+| | | |____ListQuotePage.prop.js
+| | | |____index.js
+| | | |____ListQuotePage.jsx
+| | | |____ListQuotePage.md
+| | | |______tests__
+| | | | |____ListQuotePage.int.story.js
+| | | | |____ListQuotePage.int.test.js
+| | | | |______snapshots__
+| | | | | |____ListQuotePage.int.test.js.snap
+| | | |____AsyncListQuotePage.jsx
+| | |____NotFoundPage
+| | | |____NotFoundPage.jsx
+| | | |____AsyncNotFoundPage.jsx
+| | | |____index.js
+| | | |______tests__
+| | | | |____NotFoundPage.int.story.js
+| | | | |____NotFoundPage.int.test.js
+| | | | |______snapshots__
+| | | | | |____NotFoundPage.int.test.js.snap
+| | | |____NotFoundPage.md
+| | | |____NotFoundPage.prop.js
+| |____atom
+| | |____.gitkeep
+| |____organism
+| | |____.gitkeep
+| |____template
+| | |____NotFoundTemplate
+| | | |____NotFoundTemplate.md
+| | | |____NotFoundTemplate.scss
+| | | |____NotFoundTemplate.prop.js
+| | | |____index.js
+| | | |______tests__
+| | | | |____NotFoundTemplate.int.test.js
+| | | | |____NotFoundTemplate.int.story.js
+| | | | |______snapshots__
+| | | | | |____NotFoundTemplate.int.test.js.snap
+| | | |____NotFoundTemplate.jsx
+| | |____ListQuoteTemplate
+| | | |____ListQuoteTemplate.jsx
+| | | |____ListQuoteTemplate.scss
+| | | |____ListQuoteTemplate.prop.js
+| | | |____index.js
+| | | |____ListQuoteTemplate.hook.js
+| | | |____ListQuoteTemplate.md
+| | | |______tests__
+| | | | |____ListQuoteTemplate.int.story.js
+| | | | |____ListQuoteTemplate.int.test.js
+| | | | |______snapshots__
+| | | | | |____ListQuoteTemplate.int.test.js.snap
+| |____molecule
+| | |____Navigator
+| | | |____Navigator.prop.js
+| | | |____Navigator.md
+| | | |____Navigator.hook.js
+| | | |____Navigator.scss
+| | | |____index.js
+| | | |______tests__
+| | | | |____Navigator.int.story.js
+| | | | |____Navigator.int.test.js
+| | | | |______snapshots__
+| | | | | |____Navigator.int.test.js.snap
+| | | |____Navigator.jsx
+|____clientRenderApp.js
+|____store
+| |____client.js
+| |____thunk
+| | |____context
+| | | |____progress
+| | | | |____set
+| | | | | |____index.js
+| | |____app
+| | | |____completeState.js
+| | | |____index.js
+| | | |____quotesStaticData.js
+| |____dispatch
+| | |____index.js
+| | |______tests__
+| | | |____index.test.js
+| |____reducer
+| | |____ui
+| | | |____listQuotes
+| | | | |____pagination
+| | | | | |____index.js
+| | | | |____sort
+| | | | | |____index.js
+| | | | |____get
+| | | | | |____index.js
+| | | | |____search
+| | | | | |____index.js
+| | | | |____select
+| | | | | |____index.js
+| | | | | |____quotesObjects.js
+| | | | |____set
+| | | | | |____index.js
+| | |____context
+| | | |____progress
+| | | | |____set
+| | | | | |____index.js
+| | | |____navigation
+| | | | |____set
+| | | | | |____index.js
+| | |____index.js
+| |____action
+| | |____actionCreators.js
+| | |______tests__
+| | | |____actionTypes.test.js
+| | | |____actionCreators.test.js
+| | |____actionTypes.js
+| |______tests__
+| | |____client.test.js
+| | |____base.test.js
+| |____base.js
