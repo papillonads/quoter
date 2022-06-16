@@ -1,0 +1,834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListQuoteTemplate /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="alert"
+    >
+      <div
+        class="flash-messages"
+      >
+        <div
+          class="flash flash-success"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Ready...
+        </div>
+      </div>
+    </div>
+    <div
+      class="navigator"
+    >
+      <div
+        class="navigatorHeading Subhead"
+      >
+        <div
+          class="Subhead-heading"
+        >
+          View Single Random Quote
+        </div>
+      </div>
+      <div
+        class="tabnav"
+      >
+        <nav
+          aria-label="List Quotes"
+          class="tabnav-tabs"
+        >
+          <a
+            aria-current="page"
+            class="tabnav-tab"
+            href="/list"
+          >
+            List Quotes
+          </a>
+        </nav>
+      </div>
+      <div
+        class="navigatorHeading Subhead"
+      >
+        <div
+          class="Subhead-heading"
+        >
+          Search Random Quotes
+        </div>
+      </div>
+    </div>
+    <div
+      class="alert"
+    >
+      <div
+        class="flash-messages"
+      >
+        <div
+          class="flash"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          “The difference between theory and practice is that in theory, there is no difference between theory and practice.”
+        </div>
+      </div>
+    </div>
+    <div
+      class="content"
+    >
+      <div
+        class="contentDisplay"
+      >
+        <div
+          class="contentDisplaySearch"
+        >
+          <div
+            class="contentDisplaySearchPart"
+          >
+            <div
+              class="contentDisplaySearchPartField"
+            >
+              <span
+                class="contentDisplaySearchPartFieldLabel IssueLabel bg-blue text-white"
+                title="Label: Keyword:"
+              >
+                Keyword:
+              </span>
+              <input
+                aria-label="Type in quote"
+                class="contentDisplaySearchPartFieldInput form-control"
+                id="T"
+                placeholder="Type quote and press Enter to search. Press ESC to clear."
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <nav
+          aria-label="Pagination Top"
+          class="contentDisplayPagination paginate-container"
+        >
+          <div
+            class="pagination d-flex"
+          >
+            <span
+              aria-disabled="true"
+            >
+              &lt;
+            </span>
+            <span>
+              Viewing 1 to 3
+            </span>
+            <a
+              aria-label="Next"
+              href="#url"
+              rel="next"
+            >
+              &gt;
+            </a>
+          </div>
+        </nav>
+        <div
+          class="contentDisplayGridListQuotes"
+        >
+          <div
+            class="d-flex flex-row flex-items-start bg-blue-light border"
+          >
+            <div
+              class="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="d-flex flex-justify-between width-full"
+              >
+                <div
+                  class="css-truncate css-truncate-overflow"
+                >
+                  Quote
+                </div>
+                <div
+                  class="d-flex flex-items-start ml-1"
+                >
+                  <span
+                    class="ml-1 text-gray-light"
+                  >
+                     |
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="d-flex flex-justify-between width-full"
+              >
+                <div
+                  class="css-truncate css-truncate-overflow"
+                >
+                  Rating
+                </div>
+                <div
+                  class="d-flex flex-items-start ml-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Walking on water and developing software from a specification are easy if both are frozen.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                It always takes longer than you expect, even when you take into account Hofstadter’s Law.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Some people, when confronted with a problem, think “I know, I’ll use regular expressions.” Now they have two problems.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil, perpetrated by skilled but perverted professionals.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                On two occasions I have been asked, ‘Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?’ I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.”
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                I don’t care if it works on your machine! We are not shipping your machine!
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                If debugging is the process of removing software bugs, then programming must be the process of putting them in.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row flex-items-start border item row"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+            >
+              <div
+                class="m-0 form-checkbox"
+              >
+                <label
+                  for="checkbox"
+                >
+                  <input
+                    aria-describedby="isSelected"
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              >
+                It is practically impossible to teach good programming style to students that have had prior exposure to BASIC. As potential programmers, they are mentally mutilated beyond hope of regeneration.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+            >
+              <div
+                class="css-truncate css-truncate-overflow"
+              />
+            </div>
+          </div>
+        </div>
+        <nav
+          aria-label="Pagination Bottom"
+          class="contentDisplayPagination paginate-container"
+        >
+          <div
+            class="pagination d-flex"
+          >
+            <span
+              aria-disabled="true"
+            >
+              &lt;
+            </span>
+            <span>
+              Viewing 1 to 3
+            </span>
+            <a
+              aria-label="Next"
+              href="#url"
+              rel="next"
+            >
+              &gt;
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="alert"
+    >
+      <div
+        class="flash-messages"
+      >
+        <div
+          class="flash flash-success"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Ready...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
